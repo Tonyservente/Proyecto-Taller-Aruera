@@ -12,6 +12,9 @@
     --blanco: #ffffff; 
     --negro: #000000; 
     --gris: #e1e1e1; 
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
 }       
 
 html {
@@ -25,8 +28,6 @@ body {
     font-size: 1.6rem;
     line-height: 2;
 /*    margin: 0;*/
-background: rgb(94,58,3);
-background: radial-gradient(circle, rgba(94,58,3,1) 0%, rgba(253,168,29,1) 56%, rgba(252,176,69,1) 100%);
 }
 
 /**globales**/ 
@@ -50,6 +51,7 @@ h2 {
 
 h3 {
     font-size: 3.2rem;
+    text-align: center;
 }
 h4 {
     font-size: 2.8rem;
@@ -129,7 +131,7 @@ img {
         margin-top: 25rem;
         padding: auto;
         text-align: left;
-        color: rgba(253,168,29,1);
+        color: var(--blanco);
     }
 
     .barra {
@@ -150,13 +152,13 @@ img {
 }
 
 .logo { 
-    color: rgba(253,168,29,1);
+    color: var(--blanco);
     text-align: center;
 }
 
-.logo__nombre {
+.logo__nombre :hover {
     font-weight: 3rem;
-    transform: skew(10deg);
+    color: var(--negro)
 }
 
 
@@ -169,7 +171,7 @@ img {
 
 
 .navegacion a:hover {
-    color: rgba(253,168,29,1);
+    color: var(--negro);
 }
 
 /** Main**/ 
@@ -181,6 +183,13 @@ img {
     grid-template-columns:2fr 1fr;
     column-gap: 4rem;
     }
+    .shadow {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: .3s;
+    }
+    .shadow:hover {
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 40%);
+    }
 }
 
 .entrada {
@@ -191,6 +200,7 @@ img {
 .entrada: :last-of-type {
     border: none;
     margin-bottom: 0;
+    padding: 2rem;
 }
 
 .boton {
@@ -220,6 +230,10 @@ img {
     list-style: none;
 }
 
+.widget-nosotros {
+    padding: 2rem;
+    gap: 1rem;
+}
 /* FOOTER */
 
 footer {
@@ -269,7 +283,7 @@ footer div ul li a {
     display: inline-block;
 }
 
-.redes li a {
+.redes li a:hover {
     font-size: 40px;
     margin-right: 20px;
 }
@@ -396,4 +410,3 @@ div .img__rest {
       opacity: 1;
     }
   }
-  
