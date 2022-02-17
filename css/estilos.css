@@ -75,22 +75,13 @@ img {
 
 /**Header**/
 
-.header {
-    background-image:url(../img/tallercarp4.jpg);
-    height: 60rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+.navbar-brand {
+    font-size: 3rem;
 }
 
-.header__texto {
-    text-align: center;
-    color: var(--negro);
-    margin-top: 3rem;
-    padding-left: 3rem;
-    font-size: 2.7rem;
-    
+.img-carrusel {
+    height: 60vh;
+    object-fit: cover;
 }
 
 @media (min-width: 320px) {
@@ -257,9 +248,8 @@ img {
 
 footer {
     background: var(--negro);
-/*    padding: 1em;*/
+    padding: 1rem;
     color: white;
-    
     bottom: 0;
     width: 100%;
     clear: both;

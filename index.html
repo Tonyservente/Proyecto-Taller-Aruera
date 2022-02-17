@@ -16,28 +16,62 @@
 <body>
 
     <header class="header">
-        <div class="contenedor"></div>
-            <div class="barra">
-                <a class="logo scale-in-center" href="index.html">
-                    <h1 class="logo__nombre scale-in-center" no-margin centrar-texto><span>Taller Aruera</span></h1>
-                </a>
-
-                <nav class="navegacion">
-                    <a href="#" class="navegacion__enlace">Inicio</a>
-                    <a href="./vistas/empresa.html" class="navegacion__enlace">Empresa</a>
-                    <a href="./vistas/portfolio.html" class="navegacion__enlace">Portfolio</a>
-                    <a href="./vistas/restauración.html" class="navegacion__enlace">Restauracion</a>
-                    <a href="./vistas/contacto.html" class="navegacion__enlace">Contacto</a>
-                </nav>
-            </div>
-        
-        <div class="header__texto">
-            <h2 class="no-margin subtitulo">Nuestro saber a tu servicio</h2>
-            <p class="no-margin">Tu imaginación, nuestro trabajo</p>
-
-        </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-align-center" href="#">Taller Aruera</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav align-items-center">
+                           <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                            </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./vistas/empresa.html">Empresa</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./vistas/portfolio.html">Portfolio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./vistas/restauración.html">Restauracion</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./vistas/contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+            </nav>
+            <section class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 p-0">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./img/Img navbar/pexels-cottonbro-5089178.jpg" class="d-block w-100 img-carrusel" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./img/Img navbar/pexels-cleyder-duque-3637784.jpg" class="d-block w-100 img-carrusel" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./img/Img navbar/pexels-clem-onojeghuo-175709.jpg" class="d-block w-100 img-carrusel" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </section>
     </header>
-        <main class="blog">
+    <main class="blog">
         <div class="contenedor contenido-principal">
             <section>
                 <h3>Servicios</h3>
