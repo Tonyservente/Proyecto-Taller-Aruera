@@ -336,11 +336,6 @@ ul {
 /**Empresa**/
 
 @media (min-width: 320px) {
-    .Nuestra-empresa {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 3rem;
-        }
     .contenedor {
         padding: 2rem;
     }
@@ -348,11 +343,6 @@ ul {
 
 @media (min-width: 480px) {
 
-    .Nuestra-empresa {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 3rem;
-        }
     .contenedor {
         padding: 2rem;
     }
@@ -371,6 +361,10 @@ ul {
 }
 
 }
+
+/**Portfolio**/
+
+
 
 /**FORMULARIO DE CONTACTO **/
 
@@ -460,6 +454,6 @@ div .img__rest {
   }
 
   fieldset {
-    margin: 3rem;
+    margin:3rem;
     border: solid 1px;
   }
