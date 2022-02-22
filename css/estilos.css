@@ -45,8 +45,9 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 4.8rem;
 }
+
 h2 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h3 {
@@ -194,9 +195,6 @@ img {
 }
 
 
-.navegacion a:hover {
-    color: var(--negro);
-}
 
 /** Main**/ 
 
@@ -373,7 +371,21 @@ ul {
 
 /**Portfolio**/
 
+@media (min-width: 768px) {
+    
+    .dos-columnas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3rem;
+        }
+}
+.subtitulo {
+    text-align: center;
+}
 
+.entrada-home {
+    padding: 1rem;
+}
 
 /**FORMULARIO DE CONTACTO **/
 
@@ -472,4 +484,36 @@ div .img__rest {
   fieldset {
     margin:3rem;
     border: solid 1px;
+  }
+
+  .titulo {
+      text-decoration: none;
+      font-family: sans-serif;
+      color: white;
+      background-color: rgb(33 37 41);
+      padding: 1rem 2rem;
+      top: 50%;
+      padding: 1rem 1rem;
+      text-transform: uppercase;
+      border-radius: 50%;
+      animation: animacion 2s linear infinite;
+  }
+
+  @keyframes animacion {
+    0% {
+    box-shadow: 0 0 0 0 rgb(48, 47, 47, 0.6); 0 0 0 0 rgb(48, 47, 47, 0.6);
+    }
+
+    30% {
+        box-shadow: 0 0 0 50px rgb(48, 47, 47, 0.6); 0 0 0 0 rgb(48, 47, 47, 0.6);    
+    }
+
+    65% {
+        box-shadow: 0 0 0 50px rgb(48, 47, 47, 0.6); 0 0 0 30px rgb(48, 47, 47, 0);    
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgb(48, 47, 47, 0.); 0 0 0 30px rgb(48, 47, 47, 0); 
+    }
+
   }
