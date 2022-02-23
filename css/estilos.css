@@ -343,20 +343,20 @@ footer div ul li a {
 }
 
 .redes:hover {
-    background-color:#1877f2;
-    box-shadow: 0 0 20px #1877f2;
-}
-.redes:hover:nth-child(2){
-    background-color: #e60073;
+    background-color:#e60073;
     box-shadow: 0 0 20px #e60073;
 }
-.redes:hover:nth-child(3) {
-    background-color: #1da1f2;
-    box-shadow: 0 0 20px #1da1f2;
+.redes:hover:nth-child(2){
+    background-color: #1877f2;
+    box-shadow: 0 0 20px #1877f2;
 }
-.redes:hover:nth-child(4) {
+.redes:hover:nth-child(3) {
     background-color: #25d366;
     box-shadow: 0 0 20px #25d366;
+}
+.redes:hover:nth-child(4) {
+    background-color: #1da1f2;
+    box-shadow: 0 0 20px #1da1f2;
 }
 
 .redes i{
