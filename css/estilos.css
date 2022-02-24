@@ -332,7 +332,7 @@ footer div ul li a {
 
 .redes {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     position: relative;
     width: 80px;
@@ -343,7 +343,7 @@ footer div ul li a {
 }
 
 .redes:hover {
-    background-color: #e60073;
+    background-color:#e60073;
     box-shadow: 0 0 20px #e60073;
 }
 .redes:hover:nth-child(2){
