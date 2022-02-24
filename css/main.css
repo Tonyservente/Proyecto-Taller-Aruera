@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --fuenteHeading: "PT Sans", sans-serif;
+  --fuenteParrafos: "Open Sans", sans-serif;
+  --primario: #784d3c;
+  --blanco: #ffffff;
+  --negro: #000000;
+  --gris: #e1e1e1;
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1 rem = 10px */
+}
+
+body {
+  font-family: var(--fuenteParrafos);
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/**globales**/
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--fuenteHeading);
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2.8rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+/**utilidades**/
+.no-margin {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0.5rem;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.centrar-texto {
+  text-align: center;
+  padding: 1rem;
+}
+
+.header .custom-nav {
+  background-color: black !important;
+}
+
+.header .navbar-brand {
+  font-size: 3rem;
+}
+
+.header .img-carrusel {
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header .padding-nav {
+  padding-right: 3rem;
+}
+
+.header .espacio-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header .titulo {
+  text-decoration: none;
+  font-size: 4rem;
+  font-family: sans-serif;
+  color: white;
+  padding: 1rem 2rem;
+  top: 50%;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
+}
+
+.hero .entrada {
+  border-bottom: 1px solid var(--gris);
+  margin-bottom: 2rem;
+}
+
+.hero .entrada {
+  border: none;
+  margin-bottom: 0;
+  padding: 2rem;
+}
+
+.hero .boton {
+  display: block;
+  font-family: var(--fuenteHeading);
+  color: var(--blanco);
+  text-align: center;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.hero .boton--primario {
+  background-color: var(--negro);
+}
+
+.hero .nosotros {
+  list-style: none;
+}
+
+.hero .widget-nosotros {
+  padding: 2rem;
+  gap: 1rem;
+}
+
+
+@media (min-width: 320px) {
+  .shadow {
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 0.20);
+      transition: .3s;
+      }
+      .shadow:hover {
+          box-shadow: 0 8px 16px 0 rgb(0 0 0 0.40);
+      }
+
+  .sidebar h3 {
+      padding: 2rem 1rem;
+  }
+
+  .p {
+      margin: 2rem;
+  }
+
+  .contenedor {
+      padding: 2rem;
+  }
+}
+
+
+/*# sourceMappingURL=main.css.map */

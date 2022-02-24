@@ -1,0 +1,39 @@
+.hero {
+    .entrada {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+    }
+    .entrada {
+    border: none;
+    margin-bottom: 0;
+    padding: 2rem;
+    }
+    .boton {
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    }
+    .boton--primario {
+        background-color: var(--negro);
+    }
+    .nosotros {
+    list-style: none;
+    }
+    .widget-nosotros {
+    padding: 2rem;
+    gap: 1rem;
+    }
+}
+
+.subtitulo {
+    text-align: center;
+}
+.entrada-home {
+    padding: 1rem;
+}

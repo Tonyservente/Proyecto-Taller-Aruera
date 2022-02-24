@@ -237,7 +237,7 @@ img {
     margin-bottom: 2rem;
 }
 
-.entrada: :last-of-type {
+.entrada {
     border: none;
     margin-bottom: 0;
     padding: 2rem;
@@ -514,36 +514,6 @@ div .img__rest {
         border-bottom: 1px solid var(--gris);
     }
 }
-
-.scale-in-center {
-	-webkit-animation: scale-in-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-	        animation: scale-in-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-}
-
-@-webkit-keyframes scale-in-center {
-    0% {
-      -webkit-transform: scale(0);
-              transform: scale(0);
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      opacity: 1;
-    }
-  }
-  @keyframes scale-in-center {
-    0% {
-      -webkit-transform: scale(0);
-              transform: scale(0);
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      opacity: 1;
-    }
-  }
 
   fieldset {
     margin:3rem;
