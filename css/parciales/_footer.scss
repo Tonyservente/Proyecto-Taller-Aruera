@@ -1,7 +1,9 @@
+ @import "./variables";
+ 
 .footer {
     background: var(--negro);
     padding: 1rem;
-    color: white;
+    color: #$white-fondo;
     bottom: 0;
     width: 100%;
     clear: both;
@@ -34,7 +36,7 @@ footer div ul li {
 
 footer div ul li a {
     text-decoration: none;
-    color: #FFF;
+    color: $white-fondo;
     font-size: 13px;
 }
 
@@ -79,7 +81,7 @@ footer div ul li a {
 }
 
 .redes i {
-    color: white;
+    color: $white-fondo;
     position: absolute;
     top: 50%;
     left: 50%;
