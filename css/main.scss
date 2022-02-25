@@ -5,22 +5,3 @@
 @import "./parciales/hero";
 @import "./parciales/footer";
 @import "./parciales/responsives";
-
-@media (min-width: 320px) {
-    .shadow {
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%) !important;
-    transition: .3s;
-    }
-    .shadow:hover {
-    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 40%) !important;
-    }
-    .sidebar h3 {
-    padding: 2rem 1rem;
-    }
-    .p {
-    margin: 2rem;
-    }
-    .contenedor {
-    padding: 2rem;
-    }
-}

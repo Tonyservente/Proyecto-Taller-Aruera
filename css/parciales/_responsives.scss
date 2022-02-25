@@ -1,10 +1,10 @@
 @media (min-width: 320px) {
     .shadow {
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 ,0 , 0.2);
     transition: .3s;
     }
     .shadow:hover {
-            box-shadow: 0 8px 16px 0 rgb(0 0 0 / 40%) !important;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.40);
     }
     .sidebar h3 {
     padding: 2rem 1rem;
@@ -51,11 +51,11 @@
         column-gap: 4rem;
         }
     .shadow {
-        box-shadow: 0 4px 8px 0 rgba(0 0 0 0.20);
+        box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.20);
         transition: .3s;
         }
     .shadow:hover {
-        box-shadow: 0 8px 16px 0 rgba(0 0 0 0.40);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.40);
         }
     .boton {
     display: inline-block;
@@ -64,11 +64,11 @@
     
 @media (min-width: 320px) {
     .shadow {
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: .3s;
     }
     .shadow:hover {
-    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 40%) !important;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
     }
     .sidebar h3 {
     padding: 2rem 1rem;
