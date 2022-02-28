@@ -1,6 +1,5 @@
  @import "./variables";
- 
-.footer {
+ .footer {
     background: var(--negro);
     padding: 1rem;
     color: #$white-fondo;
@@ -8,12 +7,6 @@
     width: 100%;
     clear: both;
     text-align: center;
-    .footer {
-    width: 1500px;
-    margin: auto;
-    display: inline-block;
-    color: var(--blanco);
-    }
 
 }
 .footer-class{
@@ -24,6 +17,12 @@
     width: 100%;
     margin: 0px;
 }
+.footer {
+    width: 1500px;
+    margin: auto;
+    display: inline-block;
+    color: var(--blanco);
+    }
 footer div ul h2{
     margin-bottom: 10px;
     padding: 20px 0 20px 0;
@@ -36,7 +35,7 @@ footer div ul li {
 
 footer div ul li a {
     text-decoration: none;
-    color: $white-fondo;
+    color:$white-fondo;
     font-size: 13px;
 }
 
@@ -88,16 +87,18 @@ footer div ul li a {
     transform: translate(-50%, -50%);
     font-size: 1.7rem;
     }
-    svg circle {
-    stroke-dasharray: 150;
-    transition: all .8s ease-in-out;
-    &:hover circle {
-        stroke-dasharray: 220;
-    }
-    .border {
-    border-bottom: 2px solid #FFF;
-    width: 100%;
-    padding: 5px 0 5px 0;
-    display: inline-block;
-    }
 }
+    
+svg circle {
+stroke-dasharray: 150;
+transition: all .8s ease-in-out;
+&:hover circle {
+stroke-dasharray: 220;
+}
+.border {
+border-bottom: 2px solid #FFF;
+width: 100%;
+padding: 5px 0 5px 0;
+display: inline-block;
+}
+

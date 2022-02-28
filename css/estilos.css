@@ -463,7 +463,8 @@ ul {
 
 .formulario {
     width: 100%;
-    margin: 20px auto 20px auto; 
+    margin: 20px auto 20px auto;
+    border: solid 1px;
 }
 
 .formulario fieldset {
@@ -517,7 +518,7 @@ div .img__rest {
 
   fieldset {
     margin:3rem;
-    border: solid 1px;
+    border: solid 1px var(--negro);
   }
 
   
