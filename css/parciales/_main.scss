@@ -1,4 +1,4 @@
-.hero {
+.blog {
     .entrada {
     border-bottom: 1px solid var(--gris);
     margin-bottom: 2rem;
@@ -19,21 +19,24 @@
     font-weight: 700;
     margin-bottom: 2rem;
     }
-    .boton--primario {
-        background-color: var(--negro);
-    }
-    .nosotros {
-    list-style: none;
-    }
-    .widget-nosotros {
-    padding: 2rem;
-    gap: 1rem;
-    }
 }
-
+.boton--primario {
+background-color: var(--negro);
+}
+.boton--primario:hover {
+    color: #e1e1e1;
+    }
+.sidebar ul {
+list-style: none;
+}
+.widget-nosotros {
+padding: 1rem;
+margin-bottom: 2rem;
+}
 .subtitulo {
-    text-align: center;
+text-align: center;
 }
 .entrada-home {
-    padding: 1rem;
+padding: 1rem;
 }
+

@@ -1,11 +1,5 @@
 @media (min-width: 320px) {
-    .shadow {
-    box-shadow: 0 4px 8px 0 rgba(0, 0 ,0 , 0.2) !important;
-    transition: .3s;
-    }
-    .shadow:hover {
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.40) !important;
-    }
+    
     .sidebar h3 {
     padding: 2rem 1rem;
     }
@@ -47,16 +41,15 @@
         display: grid;
         grid-template-columns:2fr 1fr;
         column-gap: 4rem;
-        }
-    .shadow {
-        box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.20) !important;
-        transition: .3s;
-        }
-    .shadow:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.40) !important;
-        }
-    .boton {
+    }
+    .blog .boton {
     display: inline-block;
+    }
+    .dos-columnas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+        }
     }
 }
 
