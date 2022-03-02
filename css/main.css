@@ -126,9 +126,9 @@ img {
   text-align: center;
 }
 
-.logo__nombre :hover {
+.logo__nombre:hover {
   font-weight: 3rem;
-  color: var(--negro);
+  color: var(--blanco);
 }
 
 fieldset {
@@ -300,7 +300,6 @@ svg circle {
 .border {
   border-bottom: 2px solid #FFF;
   width: 100%;
-  padding: 5px 0 5px 0;
   display: inline-block;
 }
 
