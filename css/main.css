@@ -182,6 +182,16 @@ fieldset {
 
 .entrada-home {
   padding: 1rem;
+  margin: 1rem;
+}
+
+.home dos-columnas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
 }
 
 footer {
@@ -366,6 +376,14 @@ svg circle {
   }
   .blog .boton {
     display: inline-block;
+  }
+  .home {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -webkit-column-gap: 2rem;
+            column-gap: 2rem;
   }
 }
 
