@@ -52,6 +52,20 @@
     }
 }
 
+@media (min-width: 768px) {
+    .trabajos {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        column-gap: 2rem;
+        
+        }
+    }
+    .trabajos {
+        padding: 3rem 0;
+        border-bottom: 1px solid var(--gris);
+    }
+}
+
 @media (min-width: 320px) and (max-width: 768px){
     .formulario {
     width: 100%;
