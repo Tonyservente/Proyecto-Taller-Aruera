@@ -19,17 +19,6 @@
 }
 
 @media (min-width: 768px) {
-    .header__texto{
-        margin-top: 25rem;
-        padding: auto;
-        text-align: left;
-        color: var(--blanco);
-    }
-    .barra {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
     body {
         font-size: 2rem;
     }
@@ -49,20 +38,6 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 2rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .trabajos {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-        column-gap: 2rem;
-        
-        }
-    }
-    .trabajos {
-        padding: 3rem 0;
-        border-bottom: 1px solid var(--gris);
     }
 }
 

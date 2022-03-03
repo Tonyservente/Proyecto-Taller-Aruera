@@ -1,1 +1,10 @@
-$vista:mobile;
+$color: (
+    "gris": #e1e1e1c0,
+    "marron": #af5700,
+);
+
+@each $color in valor in $colores {
+    .titulo--# {$color} {
+        color: $valor;
+    }
+}
