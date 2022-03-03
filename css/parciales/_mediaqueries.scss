@@ -2,8 +2,10 @@
     @media only screen and (max-width: 768){
         @content; 
 }
+}
 
 @mixin movil {
     @media only screen and (max-width: 320){
         @content; 
+}
 }
