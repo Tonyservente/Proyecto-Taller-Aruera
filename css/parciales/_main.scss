@@ -1,4 +1,4 @@
-@import "./parciales/responsives";
+@import "./responsives";
 @import "./variables";
 
 .blog {
@@ -62,17 +62,48 @@ display: grid;
 grid-template-columns: repeat(1, 2fr);
 column-gap: 2rem;
 }
-.trabajos {
+.trabajos__imagen {
+    padding: 3rem;
+}
+.trabajos__informacion {
 padding: 3rem 0;
 border-bottom: 1px solid var(--gris);
 }
 
-.contenedor {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 3rem;
-    padding: 2rem;
+/**FORMULARIO DE CONTACTO **/
+
+.formulario {
+    width: 700px;
+    margin: 20px auto 20px auto;
+    border: solid 1px;
 }
 
+.formulario fieldset {
+    padding: 10px;
+}
+
+.formulario form div label {
+    margin: 10px 0 10px 0;
+}
+
+.formulario form div label, textarea {
+    width: 100%;
+    display: inline-block;
+}
+
+.formulario form div input {
+    width: 100%;
+/*    border: 1px solid red;*/
+    padding: 7px;
+}
+
+.formulario form div input[type=submit] {
+    width: 100px;
+    color: #FFF;
+    background: var(--negro);
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
 
 

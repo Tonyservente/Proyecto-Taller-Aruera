@@ -1,10 +1,14 @@
-$color: (
+$colores: (
     "gris": #e1e1e1c0,
     "marron": #af5700,
 );
 
-@each $color in valor in $colores {
-    .titulo--# {$color} {
+@each $color, $valor in $colores {
+    .titulo--#{$color}{
         color: $valor;
     }
+}
+.color--titulo:hover {
+    @extend .titulo; 
+    color: map-get($colores,marron) !important; 
 }
