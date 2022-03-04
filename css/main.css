@@ -115,6 +115,10 @@ img {
   font-size: 3rem;
 }
 
+.header .nav-link:hover {
+  color: #af5700;
+}
+
 .header .img-carrusel {
   height: 60vh;
   -o-object-fit: cover;
@@ -147,16 +151,6 @@ img {
 
 .header .titulo:hover, .header .color--titulo:hover {
   color: #e1e1e1;
-}
-
-.logo {
-  color: var(--blanco);
-  text-align: center;
-}
-
-.logo__nombre:hover {
-  font-weight: 3rem;
-  color: var(--negro);
 }
 
 @media (min-width: 320px) {
@@ -268,7 +262,7 @@ img {
 }
 
 .boton--primario:hover {
-  color: #e1e1e1;
+  color: #af5700;
 }
 
 .sidebar ul {
@@ -357,6 +351,10 @@ img {
   border: none;
   cursor: pointer;
   margin-top: 5px;
+}
+
+.formulario form div input:hover[type=submit] {
+  color: #af5700;
 }
 
 .titulo--gris {

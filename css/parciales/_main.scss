@@ -27,7 +27,7 @@
 background-color: var(--negro);
 }
 .boton--primario:hover {
-color: #e1e1e1;
+color: #af5700;
 }
 .sidebar ul {
 list-style: none;
@@ -104,6 +104,11 @@ border-bottom: 1px solid var(--gris);
     border: none;
     cursor: pointer;
     margin-top: 5px;
+}
+.formulario form div input:hover[type=submit] {
+    
+    color: #af5700;
+    
 }
 
 

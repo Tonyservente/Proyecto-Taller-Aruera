@@ -19,7 +19,9 @@
     .navbar-brand {
     font-size: 3rem;
     }
-
+    .nav-link:hover {
+        color: #af5700;
+    }
     .img-carrusel {
     height: 60vh;
     object-fit: cover;
@@ -46,13 +48,4 @@
     .titulo:hover {
         color: #e1e1e1;
     }
-}
-.logo { 
-    color: var(--blanco);
-    text-align: center;
-}
-
-.logo__nombre:hover {
-    font-weight: 3rem;
-    color: var(--negro)
 }
