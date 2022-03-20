@@ -36,16 +36,21 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-size: 4rem;
+  font-family: cursive;
+  margin: 1rem;
 }
 
 h2 {
   font-size: 4rem;
+  text-align: center;
+  font-family: cursive;
 }
 
 h3 {
-  font-size: 3.2rem;
+  font-size: 4rem;
   text-align: center;
+  font-family: cursive;
 }
 
 h4 {
@@ -115,7 +120,7 @@ img {
   font-size: 3rem;
 }
 
-.header .nav-link:hover {
+.header .custom-nav:hover {
   color: #af5700;
 }
 
@@ -142,6 +147,7 @@ img {
   text-decoration: none;
   font-size: 4rem;
   font-family: sans-serif;
+  font-family: cursive;
   color: white;
   padding: 1rem 2rem;
   top: 50%;
@@ -242,7 +248,6 @@ img {
 .blog .entrada {
   border: none;
   margin-bottom: 0;
-  padding: 2rem;
 }
 
 .blog .boton {
@@ -327,6 +332,7 @@ img {
 
 .formulario fieldset {
   padding: 10px;
+  font-size: 2rem;
 }
 
 .formulario form div label {

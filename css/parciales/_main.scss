@@ -9,7 +9,6 @@
     .entrada {
     border: none;
     margin-bottom: 0;
-    padding: 2rem;
     }
     .boton {
     display: block;
@@ -80,6 +79,7 @@ border-bottom: 1px solid var(--gris);
 
 .formulario fieldset {
     padding: 10px;
+    font-size: 2rem;
 }
 
 .formulario form div label {
@@ -106,9 +106,5 @@ border-bottom: 1px solid var(--gris);
     margin-top: 5px;
 }
 .formulario form div input:hover[type=submit] {
-    
-    color: #af5700;
-    
+color: #af5700;   
 }
-
-
