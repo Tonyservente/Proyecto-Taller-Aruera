@@ -1,7 +1,6 @@
  @import "./variables";
 footer {
     background: var(--negro);
-    padding: 1rem;
     bottom: 0;
     width: 100%;
     clear: both;
@@ -95,4 +94,8 @@ svg circle {
 
 .card-footer {
     display: inline-block;
+}
+p {
+    margin: 0px;
+    margin-bottom: 0px;
 }
